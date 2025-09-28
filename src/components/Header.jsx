@@ -17,7 +17,7 @@ export default function Header() {
           className="h-full flex justify-between md:min-lg:justify-around items-center p-[1rem] rounded-b-4xl shadow-[0_5px_5px_-1px_rgba(0,0,0,0.3)]"
         >
           <Link to="/" className="w-[150px] md:w-[200px]">
-            <img src={"public/logos/personal-logo.png"} />
+            <img src={"../public/logos/personal-logo.png"} />
           </Link>
           <nav className="hidden md:min-lg:block">
             <NavLink to="/" className={"px-5 py-3 hover:bg-gray-200"}>
