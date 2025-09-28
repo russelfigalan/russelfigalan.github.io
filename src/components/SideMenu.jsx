@@ -84,7 +84,7 @@ export default function SideBar(props) {
           </Link>
           <div className="w-[250px]">
             <img
-              src={"../logos/personal_logo2.png"}
+              src={"../logos/personal-logo2.png"}
               alt=""
               className="w-[250px]"
             />
@@ -92,22 +92,22 @@ export default function SideBar(props) {
           <p className="text-center text-white">russelfigalan@outlook.com</p>
           <div className="mt-2 flex justify-center-safe items-center-safe gap-5">
             <img
-              src={"../media_icons/twitter2.png"}
+              src={"../media-icons/twitter2.png"}
               alt=""
               className="w-[30px]"
             />
             <img
-              src={"../media_icons/outlook.png"}
+              src={"../media-icons/outlook.png"}
               alt=""
               className="w-[30px]"
             />
             <img
-              src={"../media_icons/github-sign2.png"}
+              src={"../media-icons/github-sign2.png"}
               alt=""
               className="w-[30px]"
             />
             <img
-              src={"../media_icons/linkedin.png"}
+              src={"../media-icons/linkedin.png"}
               alt=""
               className="w-[30px]"
             />
