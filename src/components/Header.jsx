@@ -44,10 +44,7 @@ export default function Header() {
             onClick={showSideBar}
             className="md:min-lg:hidden cursor-pointer"
           >
-            <img
-              src={"/src/assets/icons/hamburger_menu.png"}
-              className="w-[20px]"
-            />
+            <img src={"assets/icons/hamburger_menu.png"} className="w-[20px]" />
           </div>
         </div>
       </header>
