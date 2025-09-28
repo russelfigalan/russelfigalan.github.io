@@ -51,7 +51,7 @@ export default function Featured() {
           <div className="w-[100%] flex flex-col items-center md:items-stretch md:flex-row justify-center gap-[2rem]">
             <div className="projects2 w-[40%] place-items-center md:place-items-end place-content-center">
               <img
-                src={"../../images/sample_image.webp"}
+                src={"../images/sample_image.webp"}
                 alt=""
                 className="w-[70%]"
               />
@@ -92,7 +92,7 @@ export default function Featured() {
             <span className="hidden md:block h-inherit relative border-2 border-gray-300" />
             <div className="projects3 w-[40%] place-items-center md:place-items-start place-content-center">
               <img
-                src={"/src/assets/images/sample_image.webp"}
+                src={"./../../images/sample_image.webp"}
                 alt=""
                 className="w-[70%]"
               />
@@ -101,7 +101,7 @@ export default function Featured() {
           <div className="w-[100%] flex flex-col items-center md:items-stretch md:flex-row justify-center gap-[2rem]">
             <div className="projects4 w-[40%] place-items-center md:place-items-end place-content-center">
               <img
-                src={"/src/assets/images/sample_image.webp"}
+                src={"./../images/sample_image.webp"}
                 alt=""
                 className="w-[70%]"
               />
