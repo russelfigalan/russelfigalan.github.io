@@ -57,7 +57,7 @@ export default function About() {
               </clipPath>
             </defs>
             <image
-              href={"/images/profile_pic2.png"}
+              href={"./images/profile_pic2.png"}
               alt=""
               clipPath="url(#blob-img)"
               x="0"
