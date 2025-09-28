@@ -5,7 +5,25 @@
     <link rel="icon" type="image/png" href="/assets/logo-favicon-FqR9boxD.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>personal-portfolio</title>
-    <script type="module" crossorigin src="/assets/index-Cq8Gd1nO.js"></script>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/assets/index-CJL8vqv9.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-C6D5XFEc.css">
   </head>
   <body>
