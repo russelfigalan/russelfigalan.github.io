@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+@theme {
+    --font-hero: "Instrument Serif", sans-serif;
+}
+
+.contact-bg {
+  @apply before:content-[""] before:absolute before:inset-0 before:bg-black before:opacity-80
+}
